@@ -10,4 +10,7 @@ def check_winner():
 
 def empty_spaces():
     pass
+
+def new_game():
+    pass
     

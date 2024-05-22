@@ -2,7 +2,7 @@ from tkinter import *
 import random
 
 
-def next_turn():
+def next_turn(row, column):
     pass
 
 def check_winner():

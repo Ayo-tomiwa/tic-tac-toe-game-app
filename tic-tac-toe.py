@@ -33,7 +33,9 @@ def next_turn(row, column):
              
 
 def check_winner():
-    pass
+    for row in range(3):
+        if buttons[row][0]['text'] == buttons[row][1]['text'] == buttons[row][2]['text'] != "":
+            return True
 
 def empty_spaces():
     pass

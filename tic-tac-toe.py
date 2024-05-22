@@ -34,7 +34,8 @@ frame.pack()
 for row in range(3):
     for column in range(3):
         buttons[row][column] = Button(frame, text= "",font=('consolas', 20),width=5, height=2,
-                                    command=lambda row=row, column=column: next_turn() )
+                                    command=lambda row=row, column=column: next_turn(row,column) )
+        buttons[row][column].grid(row=row,column=column)
 
 window.mainloop()
     

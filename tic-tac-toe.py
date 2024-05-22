@@ -3,7 +3,11 @@ import random
 
 
 def next_turn(row, column):
-    pass
+    global player
+    
+    if buttons[row][column]['text'] =="" and check_winner() is False:
+        if player == players[0]:
+            buttons[row][column]['text'] = player
 
 def check_winner():
     pass

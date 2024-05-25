@@ -36,6 +36,10 @@ def check_winner():
     for row in range(3):
         if buttons[row][0]['text'] == buttons[row][1]['text'] == buttons[row][2]['text'] != "":
             return True
+        
+    for column in range(3):
+    if buttons[row][0]['text'] == buttons[row][1]['text'] == buttons[row][2]['text'] != "":
+        return True
 
 def empty_spaces():
     pass

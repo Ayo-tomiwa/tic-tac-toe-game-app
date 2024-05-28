@@ -60,6 +60,9 @@ def check_winner():
         return True
     
     elif empty_spaces() is False:
+        for row in range (3):
+            for column in range (3):
+                buttons[row][column].config(bg="yellow")
         return "Tie"
     else:
         return False

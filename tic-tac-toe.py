@@ -86,7 +86,13 @@ def new_game():
     
     player = random.choice(players)
     
-   
+    label.config(text=player+"turn")
+    
+    for row in range(3):
+        for column in range(3):
+            buttons[row][column].config(text="", bg= "#F0F0F0")
+    
+    
     pass
 
 window = Tk()

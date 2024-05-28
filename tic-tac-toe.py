@@ -81,6 +81,8 @@ def empty_spaces():
         return True
 
 def new_game():
+    global player
+    player = random.choice(players)
     pass
 
 window = Tk()

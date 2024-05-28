@@ -62,6 +62,8 @@ def empty_spaces():
                     spaces -=1
     if spaces == 0:
         return False
+    else:
+        return True
 
 def new_game():
     pass
